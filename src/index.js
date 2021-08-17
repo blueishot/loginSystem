@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Forgotten from './components/Forgotten'
+import Login from './components/Login'
+import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Forgotten />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Login />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

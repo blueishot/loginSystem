@@ -74,7 +74,8 @@ const Forgotten = () => {
                     userSelect:'none',
                     cursor:'pointer',
                     textAlign:'center'
-                }}>
+                }}
+                onClick={() => window.location.pathname=''}>
                     <span>
                         Voltar para a página de Login    
                     </span>    

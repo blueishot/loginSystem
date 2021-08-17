@@ -1,10 +1,18 @@
-import loginArt from '../css/loginArt.css'
-import Input from './Input'
-import Button from './Button'
+import loginArt from '../css/loginArt.css';
+import Input from './Input';
+import Button from './Button';
+import Forgotten from './Forgotten';
+import {Switch, Route, Link} from 'react-router-dom';
 
 const Login = () => {
     return (
         <div className='loginBody'>
+            <main>
+                <Switch>
+                    
+                    <Route path='/forgotten' component={Forgotten}/>
+                </Switch>
+            </main>
             <div>
                 <div
                 style={{
@@ -92,6 +100,7 @@ const Login = () => {
                         </span>
                     </div>
                     <div>
+                        <Link to='/forgotten'>
                         <span
                         style={{
                             color:'#1DB9E0',
@@ -101,6 +110,7 @@ const Login = () => {
                         }}>
                             Esqueci minha senha
                         </span>
+                        </Link>
                     </div>
                 </div>
                 <div>
