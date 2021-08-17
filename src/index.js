@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Login from './components/Login'
+import Forgotten from './components/Forgotten'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Forgotten />
   </React.StrictMode>,
   document.getElementById('root')
 );
