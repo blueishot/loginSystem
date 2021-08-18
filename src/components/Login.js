@@ -7,12 +7,6 @@ import {Switch, Route, Link} from 'react-router-dom';
 const Login = () => {
     return (
         <div className='loginBody'>
-            <main>
-                <Switch>
-                    
-                    <Route path='/forgotten' component={Forgotten}/>
-                </Switch>
-            </main>
             <div>
                 <div
                 style={{
