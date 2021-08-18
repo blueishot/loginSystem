@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Login from './components/Login'
+import Login from './components/Login';
 import Forgotten from './components/Forgotten';
+import Register from './components/Register';
 import {BrowserRouter} from 'react-router-dom';
 import {Switch, Route, Link} from 'react-router-dom';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Switch>
       <Route path='/' exact component={Login}/>
       <Route path= '/forgotten' component={Forgotten} />
+      <Route path= '/register' component={Register} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

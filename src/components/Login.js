@@ -123,15 +123,17 @@ const Login = () => {
                     }}>
                         Ainda não tem uma conta?
                     </span>
-                    <span
-                    style={{
-                        marginLeft:'5px',
-                        color:'#1DB9E0',
-                        userSelect:'none',
-                        cursor:'pointer'
-                    }}>
-                        Cadastre-se
-                    </span>
+                    <Link to='/register'>
+                        <span
+                        style={{
+                            marginLeft:'5px',
+                            color:'#1DB9E0',
+                            userSelect:'none',
+                            cursor:'pointer'
+                        }}>
+                            Cadastre-se
+                        </span>
+                    </Link>
                 </div>
             </div>
         </div>

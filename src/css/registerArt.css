@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.registerBody {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+select {
+    appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 1em;
+  color: #171a16;
+  background-color: var(--darkgray);
+  background-image: none;
+  cursor: pointer;
+}
+
+.select {
+    border: #ABB3A8 1px solid;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #171a16;
+    width: fit-content;
+}
+
+
+.select::after {
+    content: '\25BC';
+}

@@ -7,6 +7,7 @@ const Input = (props) => {
         type={props.tipoInput}
         placeholder={props.placeholderNew}
         maxLength={props.maximoCaracteres}
+        name={props.inputName}
         style={{
             width:props.widthInput
         }}
